@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+:root {
+    --cor1: hsl(47, 88%, 63%);
+    --cor2: hsl(0, 0%, 100%);
+    --cor3: hsl(0, 0%, 50%);
+    --cor4: hsl(0, 0%, 7%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Figtree';
+    background-color: var(--cor1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    height: 528px;
+    width: 384px;
+    background-color: var(--cor2);
+    border-radius: 16px;
+    box-shadow: 10px 10px var(--cor4);
+    border: 1px solid var(--cor4);
+    padding: 24px;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/images/illustration-article.svg);
+    height: 200px;
+    width: 336px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+ 
+
+
+h2 {
+    font-size: 1rem;
+    background-color: var(--cor1);
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 16px 0px 8px 0px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 1rem;
+    margin: 8px 0px;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 8px 0px;
+}
+
+h1:hover {
+    color: var(--cor1);
+    cursor: pointer;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.author img {
+    height: 32px;
+    width: 32px;
+}
+
+.author p {
+    font-weight: 800;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+.attribution {
+    font-size: 0.7rem;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    font-weight: 800;
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        height: 501px;
+        width: 327px;
+        box-shadow: 8px 8px var(--cor4);
+    }
+
+    .container figure {
+        height: 200px;
+        width: 279px;
+    }
+
+    article h1 {
+        font-size: ;
+    }
+}
+
+
