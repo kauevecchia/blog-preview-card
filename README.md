@@ -17,8 +17,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://github.com/kauevecchia/blog-preview-card)
+- Live Site URL: [Click here](https://kauevecchia.github.io/blog-preview-card/)
 
 ### Built with
 
