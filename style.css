@@ -25,7 +25,6 @@ body {
 }
 
 .container {
-    margin: 0 auto;
     height: 528px;
     width: 384px;
     background-color: var(--cor2);
@@ -46,7 +45,9 @@ figure {
     overflow: hidden;
 }
  
-
+article {
+    margin: 16px 0px;
+}
 
 h2 {
     font-size: 1rem;
@@ -95,9 +96,9 @@ h1:hover {
 footer {
     padding-top: 10px;
     padding-bottom: 0px;
-    position:fixed;
-    bottom:0;
-    width:100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .attribution {
@@ -124,9 +125,67 @@ footer {
         width: 279px;
     }
 
-    article h1 {
-        font-size: ;
+    article {
+        margin: 10px 0px;
     }
+
+    article h1 {
+        font-size: 1.2rem;
+    }
+
+    article h2 {
+        font-size: 0.75rem;
+    }
+
+    .container p {
+        font-size: 0.875rem;
+    }
+
+    .author img {
+        height: 30px;
+        width: 30px;
+    }
+    
 }
 
+@media screen and (max-width: 350px) {
+    .container {
+        height: 430px;
+        width: 280px;
+        box-shadow: 7px 7px black;
+        padding: 16px;
+    }
 
+    .container figure {
+        height: 180px;
+        width: 248px;
+    }
+
+    article {
+        margin: 4px 0px;
+    }
+
+    article h1 {
+        font-size: 1rem;
+        margin: 6px 0px;
+    }
+
+    article h2 {
+        font-size: 0.65rem;
+        margin: 10px 0px 5px 0px;
+    }
+
+    .container p {
+        font-size: 0.75rem;
+        margin: 6px 0px;
+    }
+
+    .author img {
+        height: 26px;
+        width: 26px;
+    }
+    
+    footer > .attribution {
+        display: none;
+    }
+}
